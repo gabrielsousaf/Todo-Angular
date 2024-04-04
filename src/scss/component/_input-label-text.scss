@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+
   border-radius: 50px;
   background: var(--black-010);
   margin-bottom: 20px;
@@ -17,26 +18,28 @@
     border: none;
     background: none;
     font-size: 14px;
-    outline: none;
     color: var(--white);
+    outline: 0;
     margin-left: 10px;
   }
 
   input[type="checkbox"] {
     appearance: none;
     background-color: var(--white);
+
     width: 20px;
     height: 20px;
+
     border: none;
     border-radius: 50px;
     cursor: pointer;
 
-    &:checked{
+    &:checked {
       background: var(--primary);
     }
   }
 
-  input[type="checkbox"] + input[type="text"]{
+  input[type="checkbox"] + input[type="text"] {
     margin: 0;
   }
 }

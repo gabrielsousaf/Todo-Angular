@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "todo-list-angular": {
+    "curso-angular-lista-de-tarefas": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/todo-list-angular",
+            "outputPath": "dist/curso-angular-lista-de-tarefas",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "todo-list-angular:build:production"
+              "buildTarget": "curso-angular-lista-de-tarefas:build:production"
             },
             "development": {
-              "buildTarget": "todo-list-angular:build:development"
+              "buildTarget": "curso-angular-lista-de-tarefas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "todo-list-angular:build"
+            "buildTarget": "curso-angular-lista-de-tarefas:build"
           }
         },
         "test": {
@@ -94,11 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "562267d7-f412-47e6-a0e0-8b71ef3d24fe"
   }
 }
