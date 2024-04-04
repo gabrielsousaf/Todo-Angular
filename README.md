@@ -1,28 +1,50 @@
-<h1 align="center">
-  <img src="https://vidafullstack.com.br/wp-content/uploads/2020/07/angular.png" alt="" width="150">
-  <br>
-    Projeto Prático: Portfólio
-  <br>
-  https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
-</h1>
+<h1 align="center" width:100%>
 
-## :custard: Descrição
+![Lista de Tarefas - Google Chrome 2024-04-04 20-19-29](https://github.com/gabrielsousaf/Todo-Angular/assets/121953504/0a696331-b7f4-432e-80b2-69427ee2ba45)
+![Design_sem_nome-removebg-preview](https://github.com/gabrielsousaf/Todo-Angular/assets/121953504/950e7e03-ca18-4ca6-9173-d6fccf4340ad)
 
-Use este código para fazer consultas caso tenha dúvidas no curso.
 
-## :custard: Acesse o GhPages
+# 📱 Todo List.
+> * Esse repositório tem como objetivo principal apresentar meus estudos e aplicar em projetos pessoais em Angular.
+  
 
-<strong>Link:</strong> https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
+## ⚙ Descrição do projeto.
+> * Efeito de maquina de escrever, usando a biblioteca typed.js.
+> * Apresentação dos projetos e tecnologias usadas.
 
-## :custard: Aprenda a subir o seu código no ghPages
+ 
 
-<strong>Adicione ao seu projeto:</strong> ng add angular-cli-ghpages@latest
-<br>
+## ☕ Tecnologias Usadas
 
-<strong>Faça o deploy:</strong> ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browser/
+[![ANGULAR](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](#)
+[![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 
-<strong>Exp.:</strong> ng deploy --base-href https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
+https://todo-angular-three-wine.vercel.app/
 
----
+## 📎 Como Executar o projeto.
 
-Com ♥ Dener Troquatte :wave: [Linkedin](https://www.linkedin.com/in/dener-s%C3%A3o-pedro-troquatte-ababa079/) | [Blog](https://vidafullstack.com.br/)
+No diretório do projeto, você pode executar:
+
+## `npm i`:
+> Instalar as dependências listadas no arquivo package.json do projeto.
+
+## `ng serve --open`: 
+> Executa o aplicativo em modo de desenvolvimento.
+> Abra http://localhost:4200/ para visualizá-lo no navegador.
+> A página será recarregada quando você fizer alterações.
+> Você também pode ver quaisquer erros de lint no console.
+
+### `ng test`
+> Inicia o executor de teste no modo de observação interativo.
+> Consulte a seção sobre executando testes para obter mais informações.
+
+### `ng build`
+> Compila o aplicativo para produção na pasta build.
+> Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
+   
+## 📝 Licença
+
+> Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
+
+
