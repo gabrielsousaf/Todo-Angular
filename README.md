@@ -9,8 +9,12 @@
   
 
 ## ⚙ Descrição do projeto.
-> * Efeito de maquina de escrever, usando a biblioteca typed.js.
-> * Apresentação dos projetos e tecnologias usadas.
+> * Um formulário de entrada permite a adição de novos itens à lista.
+> * A adição de novos itens dispara um evento que atualiza a lista.
+> * Se não houver itens na lista, é mostrado um botão para criar uma nova lista ou o formulário de adição de itens.
+> * Se houver itens, eles são exibidos em duas seções: "Pendências" e "Concluídas".
+> * A marcação de conclusão de um item e sua exclusão da lista são refletidas no armazenamento local.
+> * A exclusão de um item requer confirmação do usuário.
 
  
 
